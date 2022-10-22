@@ -1,0 +1,13 @@
+DIR="$HOME/.config/bspwm"
+
+rofi \
+	-show window \
+	-modi window\
+	-no-lazy-grab \
+	-scroll-method 0 \
+	-drun-match-fields all \
+	-drun-display-format "{name}" \
+	-no-drun-show-actions \
+	-terminal alacritty \
+	-kb-cancel Alt-space \
+	-theme "$DIR"/rofi/themes/launcher.rasi
